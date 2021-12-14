@@ -2925,378 +2925,378 @@ class DetailPage1 extends State<DetailPage>
                                                                   MainAxisAlignment
                                                                       .end,
                                                               children: [
-                                                                // GestureDetector(
-                                                                //   child:
-                                                                //   Icon(Icons.settings
-                                                                //     ,
-                                                                //     color: dark_mode ?  ColorsRes.black : ColorsRes.appColor,
-                                                                //   ),
-                                                                //   // Image
-                                                                //   //     .asset(
-                                                                //   //         "assets/images/setting_icon.png"
-                                                                //   // ,color: Colors.black,
-                                                                //   // ),
-                                                                //   onTap: () {
-                                                                //     if (read_along_text_on ==
-                                                                //         true) {
-                                                                //       setState(
-                                                                //         () {
-                                                                //           read_along_text_on =
-                                                                //               false;
-                                                                //           timer
-                                                                //               ?.cancel();
-                                                                //           animationControllers
-                                                                //               .forEach(
-                                                                //             (element) {
-                                                                //               element.reset();
-                                                                //             },
-                                                                //           );
-                                                                //         },
-                                                                //       );
-                                                                //     }
-                                                                //     showMenu<
-                                                                //         String>(
-                                                                //       color: dark_mode
-                                                                //           ? ColorsRes
-                                                                //               .appColor
-                                                                //           : ColorsRes
-                                                                //               .grey,
-                                                                //       shape:
-                                                                //           RoundedRectangleBorder(
-                                                                //         borderRadius:
-                                                                //             BorderRadius.all(
-                                                                //           Radius.circular(
-                                                                //               15.0),
-                                                                //         ),
-                                                                //       ),
-                                                                //       context:
-                                                                //           context,
-                                                                //       position: RelativeRect.fromLTRB(
-                                                                //           width,
-                                                                //           width,
-                                                                //           0.0,
-                                                                //           0.0),
-                                                                //       items: [
-                                                                //         PopupMenuItem<
-                                                                //                 String>(
-                                                                //             child:
-                                                                //                 Row(
-                                                                //               children: [
-                                                                //                 Image.asset("assets/images/brightness_icon.png"),
-                                                                //                 SizedBox(
-                                                                //                   width: 35,
-                                                                //                 ),
-                                                                //                 Expanded(
-                                                                //                   child: Text(
-                                                                //                     DemoLocalization.of(context).translate("Brightness"),
-                                                                //                     style: TextStyle(color: Colors.white),
-                                                                //                   ),
-                                                                //                 ),
-                                                                //               ],
-                                                                //             ),
-                                                                //             value:
-                                                                //                 '0'),
-                                                                //         PopupMenuItem<
-                                                                //                 String>(
-                                                                //             child:
-                                                                //                 Row(
-                                                                //               children: [
-                                                                //                 Image.asset("assets/images/fontcolor_icon.png"),
-                                                                //                 SizedBox(
-                                                                //                   width: 35,
-                                                                //                 ),
-                                                                //                 Expanded(
-                                                                //                   child: Text(
-                                                                //                     DemoLocalization.of(context).translate("Font color"),
-                                                                //                     style: TextStyle(color: Colors.white),
-                                                                //                   ),
-                                                                //                 ),
-                                                                //               ],
-                                                                //             ),
-                                                                //             value:
-                                                                //                 '1'),
-                                                                //         PopupMenuItem<
-                                                                //                 String>(
-                                                                //             child:
-                                                                //                 Row(
-                                                                //               children: [
-                                                                //                 Image.asset("assets/images/textsize_icon.png"),
-                                                                //                 SizedBox(
-                                                                //                   width: 35,
-                                                                //                 ),
-                                                                //                 Expanded(
-                                                                //                   child: Text(
-                                                                //                     DemoLocalization.of(context).translate("Text Size"),
-                                                                //                     style: TextStyle(color: Colors.white),
-                                                                //                   ),
-                                                                //                 ),
-                                                                //               ],
-                                                                //             ),
-                                                                //             value:
-                                                                //                 '2'),
-                                                                //         PopupMenuItem<
-                                                                //                 String>(
-                                                                //             child:
-                                                                //                 Row(
-                                                                //               children: [
-                                                                //                 Image.asset("assets/images/Text alignment_icon.png"),
-                                                                //                 SizedBox(
-                                                                //                   width: 35,
-                                                                //                 ),
-                                                                //                 Expanded(
-                                                                //                   child: Text(
-                                                                //                     DemoLocalization.of(context).translate("Text Alighment"),
-                                                                //                     style: TextStyle(color: Colors.white),
-                                                                //                   ),
-                                                                //                 ),
-                                                                //               ],
-                                                                //             ),
-                                                                //             value:
-                                                                //                 '3'),
-                                                                //         PopupMenuItem<
-                                                                //                 String>(
-                                                                //             child:
-                                                                //                 Row(
-                                                                //               children: [
-                                                                //                 Image.asset("assets/images/loose_icon.png"),
-                                                                //                 SizedBox(
-                                                                //                   width: 35,
-                                                                //                 ),
-                                                                //                 Expanded(
-                                                                //                   child: Text(
-                                                                //                     DemoLocalization.of(context).translate("Line Spacing"),
-                                                                //                     style: TextStyle(color: Colors.white),
-                                                                //                   ),
-                                                                //                 ),
-                                                                //               ],
-                                                                //             ),
-                                                                //             value:
-                                                                //                 '4'),
-                                                                //         PopupMenuItem<
-                                                                //                 String>(
-                                                                //             child:
-                                                                //                 Row(
-                                                                //               children: [
-                                                                //                 Image.asset("assets/images/scroll_icon.png"),
-                                                                //                 SizedBox(
-                                                                //                   width: 35,
-                                                                //                 ),
-                                                                //                 Expanded(
-                                                                //                   child: Text(
-                                                                //                     DemoLocalization.of(context).translate("Auto Scroll"),
-                                                                //                     style: TextStyle(color: Colors.white),
-                                                                //                   ),
-                                                                //                 ),
-                                                                //               ],
-                                                                //             ),
-                                                                //             value:
-                                                                //                 '5'),
-                                                                //         PopupMenuItem<
-                                                                //                 String>(
-                                                                //             child:
-                                                                //                 Row(
-                                                                //               children: [
-                                                                //                 Image.asset("assets/images/textspeech_icon.png"),
-                                                                //                 SizedBox(
-                                                                //                   width: 35,
-                                                                //                 ),
-                                                                //                 Expanded(
-                                                                //                   child: Text(
-                                                                //                     DemoLocalization.of(context).translate("Text To Speech"),
-                                                                //                     style: TextStyle(color: Colors.white),
-                                                                //                   ),
-                                                                //                 ),
-                                                                //                 play
-                                                                //                     ? AbsorbPointer(
-                                                                //                         absorbing: false,
-                                                                //                         child: GestureDetector(
-                                                                //                           child: Image.asset(
-                                                                //                             "assets/images/2.0x/toggle_on.png",
-                                                                //                           ),
-                                                                //                           onTap: () {
-                                                                //                             setState(
-                                                                //                               () {
-                                                                //                                 play = false;
-                                                                //                                 stop();
-                                                                //                                 Navigator.pop(context);
-                                                                //                               },
-                                                                //                             );
-                                                                //                           },
-                                                                //                         ),
-                                                                //                       )
-                                                                //                     : AbsorbPointer(
-                                                                //                         absorbing: false,
-                                                                //                         child: GestureDetector(
-                                                                //                           child: Image.asset(
-                                                                //                             "assets/images/2.0x/toggle_off.png",
-                                                                //                           ),
-                                                                //                           onTap: () {
-                                                                //                             setState(
-                                                                //                               () {
-                                                                //                                 speak(() {
-                                                                //                                   if (Language_flag == "en") {
-                                                                //                                     return item.Description;
-                                                                //                                   } else if (Language_flag == "hi") {
-                                                                //                                     return item.hi_Description;
-                                                                //                                   } else if (Language_flag == "zh") {
-                                                                //                                     return item.zh_Description;
-                                                                //                                   } else if (Language_flag == "es") {
-                                                                //                                     return item.es_Description;
-                                                                //                                   } else if (Language_flag == "ar") {
-                                                                //                                     return item.ar_Description;
-                                                                //                                   } else if (Language_flag == "ru") {
-                                                                //                                     return item.ru_Description;
-                                                                //                                   } else if (Language_flag == "ja") {
-                                                                //                                     return item.ja_Description;
-                                                                //                                   } else if (Language_flag == "de") {
-                                                                //                                     return item.de_Description;
-                                                                //                                   } else {
-                                                                //                                     return item.Description;
-                                                                //                                   }
-                                                                //                                 }());
-                                                                //                                 play = true;
-                                                                //                                 Navigator.pop(context);
-                                                                //                               },
-                                                                //                             );
-                                                                //                           },
-                                                                //                         ),
-                                                                //                       ),
-                                                                //               ],
-                                                                //             ),
-                                                                //             value:
-                                                                //                 '6'),
-                                                                //         PopupMenuItem<
-                                                                //                 String>(
-                                                                //             child:
-                                                                //                 Row(
-                                                                //               children: [
-                                                                //                 Image.asset("assets/images/readalong_icon.png"),
-                                                                //                 SizedBox(
-                                                                //                   width: 35,
-                                                                //                 ),
-                                                                //                 Expanded(
-                                                                //                   child: Text(
-                                                                //                     DemoLocalization.of(context).translate("Read Along Text"),
-                                                                //                     style: TextStyle(color: Colors.white),
-                                                                //                   ),
-                                                                //                 ),
-                                                                //               ],
-                                                                //             ),
-                                                                //             value:
-                                                                //                 '7'),
-                                                                //         PopupMenuItem<
-                                                                //             String>(
-                                                                //           child:
-                                                                //               Row(
-                                                                //             children: [
-                                                                //               Icon(
-                                                                //                 Icons.settings,
-                                                                //                 color: Colors.white,
-                                                                //                 size: 22,
-                                                                //               ),
-                                                                //               SizedBox(
-                                                                //                 width: 35,
-                                                                //               ),
-                                                                //               Expanded(
-                                                                //                 child: Text(
-                                                                //                   DemoLocalization.of(context).translate("Reset"),
-                                                                //                   style: TextStyle(color: Colors.white),
-                                                                //                 ),
-                                                                //               ),
-                                                                //             ],
-                                                                //           ),
-                                                                //           value:
-                                                                //               '8',
-                                                                //         ),
-                                                                //       ],
-                                                                //       elevation:
-                                                                //           7.0,
-                                                                //     ).then<
-                                                                //         void>(
-                                                                //       (String
-                                                                //           itemSelected) {
-                                                                //         if (itemSelected ==
-                                                                //             null)
-                                                                //           return;
-                                                                //         if (itemSelected ==
-                                                                //             "0") {
-                                                                //           print(
-                                                                //               "brightness");
-                                                                //           showBrightness();
-                                                                //         } else if (itemSelected ==
-                                                                //             "1") {
-                                                                //           print(
-                                                                //               "FontColor");
-                                                                //           _fontDialog();
-                                                                //           setState(
-                                                                //               () {});
-                                                                //         } else if (itemSelected ==
-                                                                //             "2") {
-                                                                //           print(
-                                                                //               "textsize");
-                                                                //           showFont();
-                                                                //         } else if (itemSelected ==
-                                                                //             "3") {
-                                                                //           print(
-                                                                //               "Text Alighment");
-                                                                //           showTextAlighment();
-                                                                //         } else if (itemSelected ==
-                                                                //             "4") {
-                                                                //           print(
-                                                                //               "line spacing");
-                                                                //           lineSpacing();
-                                                                //         } else if (itemSelected ==
-                                                                //             "5") {
-                                                                //           print(
-                                                                //               "Auto Scroll");
-                                                                //           setState(
-                                                                //               () {
-                                                                //             currentLine =
-                                                                //                 -1;
-                                                                //             if (navbar_visible) {
-                                                                //               setState(() {
-                                                                //                 navbar_visible = false;
-                                                                //               });
-                                                                //             } else {
-                                                                //               setState(() {
-                                                                //                 navbar_visible = true;
-                                                                //               });
-                                                                //             }
-                                                                //           });
-                                                                //         } else if (itemSelected ==
-                                                                //             "6") {
-                                                                //           print(
-                                                                //               "Text To Speech");
-                                                                //           TextToSpeech();
-                                                                //         } else if (itemSelected ==
-                                                                //             "7") {
-                                                                //           print(
-                                                                //               "Read Along With Text");
-                                                                //           setState(
-                                                                //               () {
-                                                                //             // _linespacing =
-                                                                //             //     1;
-                                                                //             // lattersapcing =
-                                                                //             //     1;
-                                                                //             text_alighn =
-                                                                //                 3;
-                                                                //             // _fontSize =
-                                                                //             //     18;
-                                                                //           });
-                                                                //
-                                                                //           setState(
-                                                                //               () {});
-                                                                //           ReadAlongWithText();
-                                                                //         } else if (itemSelected ==
-                                                                //             "8") {
-                                                                //           print(
-                                                                //               "Reset All Setings");
-                                                                //           reset();
-                                                                //         }
-                                                                //       },
-                                                                //     );
-                                                                //   },
-                                                                // ),
+                                                                GestureDetector(
+                                                                  child:
+                                                                  Icon(Icons.settings
+                                                                    ,
+                                                                    color: dark_mode ?  ColorsRes.black : ColorsRes.appColor,
+                                                                  ),
+                                                                  // Image
+                                                                  //     .asset(
+                                                                  //         "assets/images/setting_icon.png"
+                                                                  // ,color: Colors.black,
+                                                                  // ),
+                                                                  onTap: () {
+                                                                    if (read_along_text_on ==
+                                                                        true) {
+                                                                      setState(
+                                                                        () {
+                                                                          read_along_text_on =
+                                                                              false;
+                                                                          timer
+                                                                              ?.cancel();
+                                                                          animationControllers
+                                                                              .forEach(
+                                                                            (element) {
+                                                                              element.reset();
+                                                                            },
+                                                                          );
+                                                                        },
+                                                                      );
+                                                                    }
+                                                                    showMenu<
+                                                                        String>(
+                                                                      color: dark_mode
+                                                                          ? ColorsRes
+                                                                              .appColor
+                                                                          : ColorsRes
+                                                                              .grey,
+                                                                      shape:
+                                                                          RoundedRectangleBorder(
+                                                                        borderRadius:
+                                                                            BorderRadius.all(
+                                                                          Radius.circular(
+                                                                              15.0),
+                                                                        ),
+                                                                      ),
+                                                                      context:
+                                                                          context,
+                                                                      position: RelativeRect.fromLTRB(
+                                                                          width,
+                                                                          width,
+                                                                          0.0,
+                                                                          0.0),
+                                                                      items: [
+                                                                        // PopupMenuItem<
+                                                                        //         String>(
+                                                                        //     child:
+                                                                        //         Row(
+                                                                        //       children: [
+                                                                        //         Image.asset("assets/images/brightness_icon.png"),
+                                                                        //         SizedBox(
+                                                                        //           width: 35,
+                                                                        //         ),
+                                                                        //         Expanded(
+                                                                        //           child: Text(
+                                                                        //             DemoLocalization.of(context).translate("Brightness"),
+                                                                        //             style: TextStyle(color: Colors.white),
+                                                                        //           ),
+                                                                        //         ),
+                                                                        //       ],
+                                                                        //     ),
+                                                                        //     value:
+                                                                        //         '0'),
+                                                                        PopupMenuItem<
+                                                                                String>(
+                                                                            child:
+                                                                                Row(
+                                                                              children: [
+                                                                                Image.asset("assets/images/fontcolor_icon.png"),
+                                                                                SizedBox(
+                                                                                  width: 35,
+                                                                                ),
+                                                                                Expanded(
+                                                                                  child: Text(
+                                                                                    DemoLocalization.of(context).translate("Font color"),
+                                                                                    style: TextStyle(color: Colors.white),
+                                                                                  ),
+                                                                                ),
+                                                                              ],
+                                                                            ),
+                                                                            value:
+                                                                                '1'),
+                                                                        PopupMenuItem<
+                                                                                String>(
+                                                                            child:
+                                                                                Row(
+                                                                              children: [
+                                                                                Image.asset("assets/images/textsize_icon.png"),
+                                                                                SizedBox(
+                                                                                  width: 35,
+                                                                                ),
+                                                                                Expanded(
+                                                                                  child: Text(
+                                                                                    DemoLocalization.of(context).translate("Text Size"),
+                                                                                    style: TextStyle(color: Colors.white),
+                                                                                  ),
+                                                                                ),
+                                                                              ],
+                                                                            ),
+                                                                            value:
+                                                                                '2'),
+                                                                        // PopupMenuItem<
+                                                                        //         String>(
+                                                                        //     child:
+                                                                        //         Row(
+                                                                        //       children: [
+                                                                        //         Image.asset("assets/images/Text alignment_icon.png"),
+                                                                        //         SizedBox(
+                                                                        //           width: 35,
+                                                                        //         ),
+                                                                        //         Expanded(
+                                                                        //           child: Text(
+                                                                        //             DemoLocalization.of(context).translate("Text Alighment"),
+                                                                        //             style: TextStyle(color: Colors.white),
+                                                                        //           ),
+                                                                        //         ),
+                                                                        //       ],
+                                                                        //     ),
+                                                                        //     value:
+                                                                        //         '3'),
+                                                                        // PopupMenuItem<
+                                                                        //         String>(
+                                                                        //     child:
+                                                                        //         Row(
+                                                                        //       children: [
+                                                                        //         Image.asset("assets/images/loose_icon.png"),
+                                                                        //         SizedBox(
+                                                                        //           width: 35,
+                                                                        //         ),
+                                                                        //         Expanded(
+                                                                        //           child: Text(
+                                                                        //             DemoLocalization.of(context).translate("Line Spacing"),
+                                                                        //             style: TextStyle(color: Colors.white),
+                                                                        //           ),
+                                                                        //         ),
+                                                                        //       ],
+                                                                        //     ),
+                                                                        //     value:
+                                                                        //         '4'),
+                                                                        // PopupMenuItem<
+                                                                        //         String>(
+                                                                        //     child:
+                                                                        //         Row(
+                                                                        //       children: [
+                                                                        //         Image.asset("assets/images/scroll_icon.png"),
+                                                                        //         SizedBox(
+                                                                        //           width: 35,
+                                                                        //         ),
+                                                                        //         Expanded(
+                                                                        //           child: Text(
+                                                                        //             DemoLocalization.of(context).translate("Auto Scroll"),
+                                                                        //             style: TextStyle(color: Colors.white),
+                                                                        //           ),
+                                                                        //         ),
+                                                                        //       ],
+                                                                        //     ),
+                                                                        //     value:
+                                                                        //         '5'),
+                                                                        // PopupMenuItem<
+                                                                        //         String>(
+                                                                        //     child:
+                                                                        //         Row(
+                                                                        //       children: [
+                                                                        //         Image.asset("assets/images/textspeech_icon.png"),
+                                                                        //         SizedBox(
+                                                                        //           width: 35,
+                                                                        //         ),
+                                                                        //         Expanded(
+                                                                        //           child: Text(
+                                                                        //             DemoLocalization.of(context).translate("Text To Speech"),
+                                                                        //             style: TextStyle(color: Colors.white),
+                                                                        //           ),
+                                                                        //         ),
+                                                                        //         play
+                                                                        //             ? AbsorbPointer(
+                                                                        //                 absorbing: false,
+                                                                        //                 child: GestureDetector(
+                                                                        //                   child: Image.asset(
+                                                                        //                     "assets/images/2.0x/toggle_on.png",
+                                                                        //                   ),
+                                                                        //                   onTap: () {
+                                                                        //                     setState(
+                                                                        //                       () {
+                                                                        //                         play = false;
+                                                                        //                         stop();
+                                                                        //                         Navigator.pop(context);
+                                                                        //                       },
+                                                                        //                     );
+                                                                        //                   },
+                                                                        //                 ),
+                                                                        //               )
+                                                                        //             : AbsorbPointer(
+                                                                        //                 absorbing: false,
+                                                                        //                 child: GestureDetector(
+                                                                        //                   child: Image.asset(
+                                                                        //                     "assets/images/2.0x/toggle_off.png",
+                                                                        //                   ),
+                                                                        //                   onTap: () {
+                                                                        //                     setState(
+                                                                        //                       () {
+                                                                        //                         speak(() {
+                                                                        //                           if (Language_flag == "en") {
+                                                                        //                             return item.Description;
+                                                                        //                           } else if (Language_flag == "hi") {
+                                                                        //                             return item.hi_Description;
+                                                                        //                           } else if (Language_flag == "zh") {
+                                                                        //                             return item.zh_Description;
+                                                                        //                           } else if (Language_flag == "es") {
+                                                                        //                             return item.es_Description;
+                                                                        //                           } else if (Language_flag == "ar") {
+                                                                        //                             return item.ar_Description;
+                                                                        //                           } else if (Language_flag == "ru") {
+                                                                        //                             return item.ru_Description;
+                                                                        //                           } else if (Language_flag == "ja") {
+                                                                        //                             return item.ja_Description;
+                                                                        //                           } else if (Language_flag == "de") {
+                                                                        //                             return item.de_Description;
+                                                                        //                           } else {
+                                                                        //                             return item.Description;
+                                                                        //                           }
+                                                                        //                         }());
+                                                                        //                         play = true;
+                                                                        //                         Navigator.pop(context);
+                                                                        //                       },
+                                                                        //                     );
+                                                                        //                   },
+                                                                        //                 ),
+                                                                        //               ),
+                                                                        //       ],
+                                                                        //     ),
+                                                                        //     value:
+                                                                        //         '6'),
+                                                                        // PopupMenuItem<
+                                                                        //         String>(
+                                                                        //     child:
+                                                                        //         Row(
+                                                                        //       children: [
+                                                                        //         Image.asset("assets/images/readalong_icon.png"),
+                                                                        //         SizedBox(
+                                                                        //           width: 35,
+                                                                        //         ),
+                                                                        //         Expanded(
+                                                                        //           child: Text(
+                                                                        //             DemoLocalization.of(context).translate("Read Along Text"),
+                                                                        //             style: TextStyle(color: Colors.white),
+                                                                        //           ),
+                                                                        //         ),
+                                                                        //       ],
+                                                                        //     ),
+                                                                        //     value:
+                                                                        //         '7'),
+                                                                        // PopupMenuItem<
+                                                                        //     String>(
+                                                                        //   child:
+                                                                        //       Row(
+                                                                        //     children: [
+                                                                        //       Icon(
+                                                                        //         Icons.settings,
+                                                                        //         color: Colors.white,
+                                                                        //         size: 22,
+                                                                        //       ),
+                                                                        //       SizedBox(
+                                                                        //         width: 35,
+                                                                        //       ),
+                                                                        //       Expanded(
+                                                                        //         child: Text(
+                                                                        //           DemoLocalization.of(context).translate("Reset"),
+                                                                        //           style: TextStyle(color: Colors.white),
+                                                                        //         ),
+                                                                        //       ),
+                                                                        //     ],
+                                                                        //   ),
+                                                                        //   value:
+                                                                        //       '8',
+                                                                        // ),
+                                                                      ],
+                                                                      elevation:
+                                                                          7.0,
+                                                                    ).then<
+                                                                        void>(
+                                                                      (String
+                                                                          itemSelected) {
+                                                                        if (itemSelected ==
+                                                                            null)
+                                                                          return;
+                                                                        if (itemSelected ==
+                                                                            "0") {
+                                                                          print(
+                                                                              "brightness");
+                                                                          showBrightness();
+                                                                        } else if (itemSelected ==
+                                                                            "1") {
+                                                                          print(
+                                                                              "FontColor");
+                                                                          _fontDialog();
+                                                                          setState(
+                                                                              () {});
+                                                                        } else if (itemSelected ==
+                                                                            "2") {
+                                                                          print(
+                                                                              "textsize");
+                                                                          showFont();
+                                                                        } else if (itemSelected ==
+                                                                            "3") {
+                                                                          print(
+                                                                              "Text Alighment");
+                                                                          showTextAlighment();
+                                                                        } else if (itemSelected ==
+                                                                            "4") {
+                                                                          print(
+                                                                              "line spacing");
+                                                                          lineSpacing();
+                                                                        } else if (itemSelected ==
+                                                                            "5") {
+                                                                          print(
+                                                                              "Auto Scroll");
+                                                                          setState(
+                                                                              () {
+                                                                            currentLine =
+                                                                                -1;
+                                                                            if (navbar_visible) {
+                                                                              setState(() {
+                                                                                navbar_visible = false;
+                                                                              });
+                                                                            } else {
+                                                                              setState(() {
+                                                                                navbar_visible = true;
+                                                                              });
+                                                                            }
+                                                                          });
+                                                                        } else if (itemSelected ==
+                                                                            "6") {
+                                                                          print(
+                                                                              "Text To Speech");
+                                                                          TextToSpeech();
+                                                                        } else if (itemSelected ==
+                                                                            "7") {
+                                                                          print(
+                                                                              "Read Along With Text");
+                                                                          setState(
+                                                                              () {
+                                                                            // _linespacing =
+                                                                            //     1;
+                                                                            // lattersapcing =
+                                                                            //     1;
+                                                                            text_alighn =
+                                                                                3;
+                                                                            // _fontSize =
+                                                                            //     18;
+                                                                          });
+
+                                                                          setState(
+                                                                              () {});
+                                                                          ReadAlongWithText();
+                                                                        } else if (itemSelected ==
+                                                                            "8") {
+                                                                          print(
+                                                                              "Reset All Setings");
+                                                                          reset();
+                                                                        }
+                                                                      },
+                                                                    );
+                                                                  },
+                                                                ),
                                                               ],
                                                             )
                                                           ],
@@ -3405,11 +3405,9 @@ class DetailPage1 extends State<DetailPage>
                                                                 }(), query),
 
                                                                 style: TextStyle(
-                                                                  color: dark_mode
-                                                                      ? ColorsRes.black
-                                                                      : ColorsRes.white,
+                                                                  color: _mainColor ?? Colors.black,
                                                                   // fontFamily: "Poppins",
-                                                                  fontSize: 11,
+                                                                  fontSize: _fontSize,
                                                                   fontWeight: FontWeight.w400,
                                                                 ),
 
