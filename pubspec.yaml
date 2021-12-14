@@ -37,6 +37,7 @@ dependencies:
   country_code_picker: ^2.0.2
   flutter_tts: ^3.2.2
   lottie: ^1.1.0
+  flutter_launcher_icons: ^0.9.2
   webview_flutter: ^3.0.0
   flutter_localizations:
     sdk: flutter
@@ -48,6 +49,11 @@ dependencies:
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.jpeg"
+
   flutter_test:
     sdk: flutter
 
