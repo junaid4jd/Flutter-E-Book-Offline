@@ -39,7 +39,7 @@
     <application
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@mipmap/ic_launcher"
         android:label="Muhammad ﷺ" >
         <activity
             android:name="com.my.ebook.MainActivity"

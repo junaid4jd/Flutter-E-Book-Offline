@@ -63,8 +63,8 @@
 40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 40-->[androidx.core:core:1.3.1] C:\Users\nouma\.gradle\caches\transforms-2\files-2.1\9d2ac2ae8a44d697ec01e22fb5b300b2\core-1.3.1\AndroidManifest.xml:24:18-86
 41        android:debuggable="true"
-42        android:icon="@drawable/ic_launcher"
-42-->C:\Users\nouma\Downloads\eBook Application - Flutter Code\eBook Application - Flutter Code\android\app\src\main\AndroidManifest.xml:7:9-45
+42        android:icon="@mipmap/ic_launcher"
+42-->C:\Users\nouma\Downloads\eBook Application - Flutter Code\eBook Application - Flutter Code\android\app\src\main\AndroidManifest.xml:7:9-43
 43        android:label="Muhammad ﷺ" >
 43-->C:\Users\nouma\Downloads\eBook Application - Flutter Code\eBook Application - Flutter Code\android\app\src\main\AndroidManifest.xml:6:9-35
 44        <activity
